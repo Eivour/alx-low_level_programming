@@ -1,0 +1,1 @@
+This directory deals with variables and expansions in C.
