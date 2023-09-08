@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
- *This is the main function of the program.
- *
- *It returns an integer value to indicate exit status of program
- *
- *return: Always 0 (Success)
- */
+	* main - This is the entry point of the code.
+	*
+	* return - 0 Successful
+	*/
 int main(void)
 {
-  printf("with proper grammar, but the outcome is a piece of art\n");
-  return (0);
+	printf("with proper grammar, but the outcome is a piece of art/n");
+	return (0);
 }
