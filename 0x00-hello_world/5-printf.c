@@ -2,10 +2,10 @@
 /**
 	* main - This is the entry point of the code.
 	*
-	* return - 0 Successful
+	* Return: Always  0 (Success)
 	*/
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art/n");
+	printf("with proper grammar, but the outcome is a piece of art\n");
 	return (0);
 }
