@@ -6,12 +6,19 @@
  */
 int main(void)
 {
-	char letter;
+	char lowercase = 'a';
+	char uppercase = 'A';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-	for (letter - 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
+	while (lowercase <= 'z')
+	{
+		putchar(lowercase);
+		lowercase++;
+	}
+	while (uppercase <= 'Z')
+	{
+		putchar(uppercase);
+		uppercase++;
+	}
 
 	putchar('\n');
 
