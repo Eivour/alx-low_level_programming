@@ -2,14 +2,16 @@
 /**
  * main - Entry point for code
  *
+ * @c: character needing checks
+ *
  * Return: Always 0 (Success)
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
-	if (c >= 65)
+	if (c >= 'A' && c <= 'Z')
 		return (1);
 
-	else if (c <= 90)
+	else
 		return (0);
 }
